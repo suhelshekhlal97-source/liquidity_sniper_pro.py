@@ -1,0 +1,9 @@
+
+### **4. `.streamlit/config.toml`** (Optional)
+```toml
+[server]
+headless = true
+enableCORS = false
+
+[browser]
+gatherUsageStats = false

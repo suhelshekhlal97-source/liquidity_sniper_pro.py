@@ -1,9 +1,6 @@
-
-### **4. `.streamlit/config.toml`** (Optional)
-```toml
-[server]
-headless = true
-enableCORS = false
-
-[browser]
-gatherUsageStats = false
+streamlit==1.37.0
+pandas==2.2.2
+git+https://github.com/twopirllc/pandas-ta.git
+plotly==5.24.0
+numpy==1.26.4
+requests==2.32.3
